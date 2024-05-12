@@ -1,0 +1,92 @@
+h1 {
+	color: red;
+	text-align: center;
+	font-style: italic;
+	font-family: Courier;
+	font-size: 36px;
+}
+
+h2 {
+	text-align: left;
+	font-family: Arial;
+	font-size: 24px;
+	font-style: italic;
+	color: green;
+}
+
+.text {
+	font-family: Times New Romans;
+	font-size: 18px;
+	color: pink;
+	text-align: justify;
+	line-height: 2px;
+	margin: 2px;
+}
+
+span {
+	color: blue;
+	text-decoration: underline;
+	letter-spacing: 4pt;
+}
+
+.parent {
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+	margin: 20px auto;
+	position: relative;
+}	
+
+.child {
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.div{
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: dashed blue;
+	background-color: red;
+	background: linear-gradient(to left,lightyellow,green);
+}
+
+.divp{
+	position: relative;
+	height: 200px;
+	width: 200px;
+}
+
+.div2{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+
+.div3{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	z-index: 2;
+}
+
+.div4{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
